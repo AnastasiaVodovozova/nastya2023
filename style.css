@@ -1,0 +1,29 @@
+.pict {
+    height: 60px;
+    width: 60px;
+}
+
+.pic {
+    height: 120px;
+    width: 120px;
+}
+
+header {
+    padding: 30px 5px 30px 5px;
+    font-size: 43px;
+    font-weight:bold;
+
+}
+
+main {
+    
+}
+
+footer {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+li{
+    padding: 0px 40px;
+}
