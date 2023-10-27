@@ -1,19 +1,21 @@
 .pict {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
 }
 
 .pic {
-    height: 120px;
-    width: 120px;
+    height: 39px;
+    width: 39px;
 }
 
 header {
     padding: 30px 0px 30px;
     font-size: 43px;
     font-weight:bold;
-
+    background-image: url('flower.jpeg');
+    height: 150px;
 }
+
 
 main {
     
@@ -26,4 +28,34 @@ footer {
 
 li{
     padding: 0px 40px;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: sans-serif;
+    height: 55px; 
+    background-color: #76bffe;
+}
+
+.nav-flex-item{
+    list-style: none;
+    padding: 25px;
+    margin:0;
+    font-size: 20px; 
+
+}
+
+.nav-flex-item:hover {
+    background-color: #1944f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu{
+    color: #000000;
 }
