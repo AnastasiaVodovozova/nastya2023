@@ -18,6 +18,12 @@
     width: 52px;
 }
 
+.picture2 {
+    height: 15%;
+    width: 15%;
+    float: right;
+}
+
 figcaption {
     align-items: center;
     font-size: 23px;
@@ -42,10 +48,6 @@ h3 {
     font-size: 30px;
 }
 
-main {
-    
-}
-
 .figure {
     flex-direction:row;
     justify-content: space-around;
@@ -58,7 +60,10 @@ main {
     display: flex;
     font-size: 23px;
     background-color: #6e9bb5;
-    ;
+}
+
+.lifigure {
+    list-style: none;
 }
 
 h2 {
@@ -74,8 +79,6 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-
-
 
 li{
     padding: 0px 40px;
@@ -110,8 +113,6 @@ li{
     background-color: #1993f0;
 }
 
-
-
 .menu{
     color: #000000;
 }
@@ -119,7 +120,7 @@ li{
 body {
     margin: 0;
     padding: 0;
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .wrapper {
@@ -127,4 +128,15 @@ body {
     margin: auto;
 }
 
-
+.btn {
+    width: 10em; 
+    height: 3em;
+    border-radius: 0.8em 0 0.8em 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    font-size: 0.9em; 
+    background-image: linear-gradient(rgba(96,125,139,0.5), rgb(96,125,139), rgba(96,125,139,0.5));
+    border-color: #b1e0ff;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
