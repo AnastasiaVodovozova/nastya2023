@@ -59,7 +59,12 @@ h3 {
     flex-wrap: nowrap;
     display: flex;
     font-size: 23px;
-    background-color: #6e9bb5;
+    background-image: url('фон2.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: auto;
 }
 
 .lifigure {
