@@ -1,3 +1,5 @@
+img {object-fit: cover;}
+
 .pict {
     height: 28px;
     width: 28px;
@@ -35,11 +37,11 @@
     width: 170px;
 }
 
-.port {
+.text {
     display: inline-block;
     width: 80%;
     padding: 5px 5px 5px 60px;
-    font-size: 20px;
+    font-size: 2vw;
     text-align: justify;
     line-height: 1.5;
 }
@@ -81,7 +83,7 @@ h3 {
     list-style: none;
     padding: 25px;
     margin:0;
-    font-size: 20px;
+    font-size: 2vw;
     flex-wrap: nowrap;
     display: flex;
     font-size: 23px;
@@ -104,7 +106,7 @@ h2 {
 }
 
 footer {
-    font-size: 10px;
+    font-size: 1vw;
     clear: both;
     text-align: center;
     margin: auto;
@@ -118,7 +120,7 @@ li{
 
 .service {
     list-style-type: circle;
-    font-size: 20px;
+    font-size: 2vw;
     text-align: justify;
     line-height: 1.5;
 }
@@ -137,7 +139,7 @@ li{
     list-style: none;
     padding: 25px;
     margin:0;
-    font-size: 20px; 
+    font-size: 2vw; 
 }
 
 .nav-flex-item:hover {
@@ -186,7 +188,7 @@ body {
 .table {
     text-align:center;
     margin: auto;
-    font-size: 20px;   
+    font-size: 2vw;   
     border-collapse: collapse;
     width: 970px;
 }
