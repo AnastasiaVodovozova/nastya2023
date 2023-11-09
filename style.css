@@ -46,6 +46,7 @@ img {object-fit: cover;}
 
 a {
     text-decoration: none; 
+
 }
 
 h2 {
@@ -82,7 +83,7 @@ header {
 .text {
     display: inline-block;
     width: 80%;
-    padding: 5px 5px 5px 60px;
+    padding: 5px 5px 5px 40px;
     font-size: 2vw;
     text-align: justify;
     line-height: 1.5;
@@ -130,6 +131,14 @@ footer {
 }
 
 .service {
+    list-style-type: circle;
+    font-size: 2vw;
+    line-height: 1.5;
+    align-items: center;
+    display: flex;
+}
+
+.service1 {
     list-style-type: circle;
     font-size: 2vw;
     text-align: justify;
