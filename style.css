@@ -65,6 +65,11 @@ h4 {
     font-size: 23px;
 }
 
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
 header {
     font-size: 43px;
     font-weight:bold;
@@ -213,4 +218,46 @@ thead {
     background-attachment: fixed;
     background-size: cover;
     padding-left: auto;
+}
+
+form.form-example {
+    display: table;
+    
+}
+
+div.form-example {
+    display: table-row;
+}
+
+div.form-example.btnt {
+    padding-top: 30px;
+    display: flex; 
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+fieldset{
+    border: 2px solid #6e9bb5;
+}
+
+section{
+    border: 2px solid #6e9bb5;
+    padding: 3px 8px 10px 8px;
+    margin: 10px auto;
+    width: 300px;
+    height: 150px;
+    text-align:center;
+}
+
+form
+{
+    width: 300px;
+    margin: 0 auto;
 }
